@@ -2,7 +2,7 @@ package ListaEd;
 
 import java.util.Scanner;
 
-public class JavaExercises {
+public class Exercise02 {
     static class HistoryNode {
         String url;
         HistoryNode next;
