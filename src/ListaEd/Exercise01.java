@@ -46,12 +46,12 @@ public class Exercise01 {
                     } else {
                         head = current.next;
                     }
-                    return true; // Tarefa removida
+                    return true;
                 }
                 previous = current;
                 current = current.next;
             }
-            return false; // Tarefa não encontrada
+            return false;
         }
 
         public boolean markTaskCompleted(String description) {
@@ -59,11 +59,11 @@ public class Exercise01 {
             while (current != null) {
                 if (current.description.equals(description)) {
                     current.completed = true;
-                    return true; // Tarefa marcada como concluída
+                    return true;
                 }
                 current = current.next;
             }
-            return false; // Tarefa não encontrada
+            return false;
         }
 
         public void displayTasks() {
